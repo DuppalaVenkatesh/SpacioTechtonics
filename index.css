@@ -1,0 +1,584 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+*{
+    box-sizing:border-box;
+}
+
+.home-bg-container{
+    background-image:url("Assignment to be completed by 4 Dec 2024/image1.png");
+    background-size:cover;
+    height:100vh;
+}
+
+
+.home-navbar-container{
+    background-color:#ffffff;
+    padding:10px 30px 10px 30px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.navbar-logo-container{
+    display:flex;
+    align-items:center;
+}
+
+.navbar-logo-image{
+    margin-right:15px;
+}
+
+.navbar-name{
+    font-family:"Roboto";
+}
+
+.navbar-features-list{
+    display:flex;
+    align-items:center;
+    padding:0px;
+    list-style-type:none;
+    justify-content:space-around;
+    width:50%;
+}
+
+@media (max-width:767px){
+    .navbar-features-list{
+        display:none;
+    }
+}
+
+.navbar-feature-item{
+    font-size:17px;
+}
+
+.navbar-feature-button{
+    background-color:blue;
+    color:white;
+    height:40px;
+    font-weight:bold;
+    border-width:0px;
+    border-radius:40px;
+
+}
+
+.navbar-feature-icon{
+    font-size:22px;
+    color:gray;
+}
+
+/* .navbar-sm-feature-icon{
+    font-size:22px;
+    color:gray;
+} */
+
+.home-description{
+    font-size:30px;
+    width:50%;
+}
+
+.home-content-container{
+  padding:2px 50px 2px 50px;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-end;
+  height:75vh;
+}
+
+.home-description-container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.home-symbol{
+    font-size:50px;
+    font-weight:bold;
+}
+
+.home-description-button{
+    background-color:blue;
+    color:white;
+    height:60px;
+    font-weight:bold;
+    border-width:0px;
+    border-radius:50px;
+    font-size:22px;
+    margin-top:30px;
+    width:40%;
+}
+
+.home-description-icon{
+    color:white;
+    font-weight:bold;
+    font-size:24px;
+}
+
+.home-container-address{
+    display:flex;
+    justify-content:center;
+    margin-top:50px;
+    font-size:12px;
+    font-weight:bold;
+    font-family:"Roboto";
+}
+
+.vertical-line{
+    height:70px;
+    background-color:rgb(233, 71, 71);
+    width:10px;
+}
+
+.about-header-container{
+    display:flex;
+    align-items:center;
+}
+
+.about-header-heading{
+    font-size:37px;
+    margin-left:10px;
+    font-family:"Playfair";
+    font-weight:400;
+}
+
+.about-section-bg-container{
+    height:100vh;
+    padding:20px 50px 20px 50px;
+    display:flex;
+    flex-direction:column;
+}
+
+.about-section-first-content-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    height:80vh;
+    width:48%;
+}
+
+.about-container-button{
+    background-color:transparent;
+    box-shadow: 20px 10px 15px gray;
+    border:0px solid;
+    font-size:20px;
+    font-weight:bold;
+    border-radius:30px;
+    padding:20px;
+    max-width:350px;
+}
+
+.about-container-icon{
+    color:black;
+    font-weight:bold;
+    font-size:24px;
+}
+
+.about-section-content-container{
+    display:flex;
+    align-items:center;
+    height:80vh;
+}
+
+.about-section-second-content-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    width:48%;
+    height:80vh;
+}
+
+.about-container-description{
+    font-size:18px;
+    font-family:"playfair";
+    line-height:1.5;
+}
+
+.about-section-address-container{
+    display:flex;
+    align-self:center;
+    margin-top:20px;
+}
+
+.exceptions-bg-container{
+    background-image:url("Assignment to be completed by 4 Dec 2024/Spacio TechTonics Consultancy V21.png");
+    background-size:cover;
+    height:100vh;
+    padding:20px 50px 20px 50px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.exceptions-left-container{
+    font-size:30px;
+    color:white;
+    font-weight:bold;
+}
+
+.exceptions-right-container{
+    font-size:30px;
+    color:white;
+    font-weight:bold;
+}
+
+.exceptions-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    height:100vh;
+}
+.exceptions-container-heading{
+    color:white;
+    font-weight:bold;
+    font-size:40px;
+    font-style:italic;
+    text-align:center;
+}
+
+.exceptions-container-address{
+    color:white;
+    font-family:"Roboto";
+    text-align:center;
+}
+
+.our-presence-bg-container{
+    height:100vh;
+    padding:20px 50px 20px 50px;
+}
+
+.our-presence-content-container{
+    width:50%;
+}
+
+.our-presence-content-description{
+    font-family:"Roboto";
+    font-size:16px;
+}
+
+.presence-stats-bg-container{
+    background-color:white;
+    box-shadow:15px 10px 10px gray;
+    padding:10px;
+    border-radius:20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:40px;
+}
+
+.stats-count{
+    font-size:30px;
+    font-weight:bold;
+    text-align:center;
+}
+
+.stats-description-container{
+    display:flex;
+    flex-direction:row;
+    max-width:120px;
+    align-items:center;
+}
+
+.stats-description{
+    color:black;
+    font-weight:bold;
+    font-size:12px;
+    text-align:center;
+    margin-right:7px;
+}
+
+.stats-icon{
+    font-size:25px;
+}
+
+.our-presence-container{
+    display:flex;
+    align-items:center;
+    margin-left:20px;
+}
+
+.map-image{
+    width:100%;
+}
+
+.presence-container-address{
+    text-align:center;
+    margin-top:20px;
+}
+
+.latest-work-header-heading{
+    font-size:40px;
+    font-weight:400;
+}
+
+.latest-work-bg-container{
+    padding:30px;
+}
+
+.latest-work-icon{
+    font-size:20px;
+}
+
+.latest-work-header-container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.left-image-container {
+    position: relative; 
+    width: 68%;
+    height: 400px;
+    display: inline-block;
+  }
+  
+.left-image-container img {
+    width: 100%;
+    height: 100%; 
+    display: block;
+    border-radius:15px;
+}
+  
+.image-left-icon {
+    position: absolute; 
+    top: 50%; 
+    left:10%;
+    transform: translate(-50%, -50%); 
+    font-size: 30px;
+    color: white; 
+}
+
+.right-image-container {
+    position: relative; 
+    width: 30%;
+    height: 400px;
+    display: inline-block;
+}
+  
+.right-image-container img {
+    width: 100%;
+    height: 100%; 
+    display: block;
+    border-radius:15px;
+}
+  
+.image-right-icon {
+    position: absolute; 
+    top: 50%; 
+    right:10%;
+    transform: translate(-50%, -50%); 
+    font-size: 30px;
+    color: white; 
+}
+  
+
+.marbile-container{
+    display:flex;
+    align-items:center;
+}
+
+.icon{
+    margin-left:15px;
+    font-size:20px;
+}
+
+.insights-bg-container{
+    padding:20px 50px 20px 50px;
+}
+
+.insights-card-container{
+    width:300px;
+}
+
+.card-container{
+    width:100%;
+    box-shadow:15px 10px 10px gray;
+    height:300px;
+    border-radius:20px;
+    padding:15px;
+}
+
+.card{
+    height:70px;
+    width:70px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border:3px solid black;
+    font-size:22px;
+    font-weight:bold;
+
+}
+
+.card-content-container{
+    padding:10px;
+    padding-left:15px;
+}
+
+.quote{
+    font-size:18px;
+    font-family:"Roboto";
+}
+.date{
+    text-align:right;
+}
+
+.mentor-insights-container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.insight-icon{
+    font-size:30px;
+    font-weight:bold;
+}
+
+.innovate-bg-container{
+    background-image:url("Assignment to be completed by 4 Dec 2024/Spacio TechTonics Consultancy V21.png");
+    background-size:cover;
+    height:100vh;
+}
+
+.bg-color{
+    background-color:transparent;
+}
+
+.color-white{
+    color:white;
+}
+
+.address-signup-container{
+    display:flex;
+    align-items:flex-end;
+    padding:20px 50px 20px 50px;
+    height:70vh;
+    font-family:"Roboto";
+}
+
+.address-container{
+    width:50%;
+}
+
+.address-container-heading{
+    color:white;
+    font-weight:bold;
+    font-size:60px;
+}
+
+.sm-container{
+    margin-top:50px;
+    display:flex;
+    align-items:center;
+}
+
+.social-app-heading{
+    color:white;
+    font-size:20px;
+    margin-right:50px;
+}
+
+.app-icon{
+    font-size:28px;
+    color:white;
+    margin-right:10px;
+}
+
+.signup-container{
+   width:50%;
+}
+
+.signup-heading{
+    color:white;
+    font-weight:bold;
+    font-size:33px;
+}
+
+.signup-description{
+    color:white;
+    font-size:16px;
+}
+
+.email-container{
+    height:40px;
+    width:300px;
+    border:2px solid white;
+    border-radius:10px;
+    display:flex;
+    align-items:center;
+    margin-right:15px;
+    justify-content:center;
+}
+
+.placeholder-text{
+    color:gray;
+    font-weight:bold;
+}
+
+.credentials-container{
+    display:flex;
+    align-items:center;
+}
+
+.signup-button{
+    background-color:white;
+    font-weight:bold;
+    border-radius:10px;
+    height:40px;
+    width:120px;
+    border:0px solid;
+}
+
+.color-black{
+    color:black;
+}
+
+.contact-us-section{
+    background-color:black;
+    padding:20px 50px 20px 50px;
+}
+
+.email-section{
+    max-width:300px;
+}
+
+.contact-us-email{
+    color:white;
+    font-size:12px;
+    font-family:"Roboto";
+    text-align:center;
+}
+
+.company-links-list{
+    list-style-type:none;
+    color:gray;
+    font-weight:600;
+    font-size:16px;
+}
+
+.contact-us-section{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.active{
+    color:white;
+    font-size:18px;
+}
+
+.call-us-container{
+    display:flex;
+    align-items:center;
+}
+
+.call-us-heading{
+    color:white;
+    font-weight:bold;
+    font-size:22px;
+}
+
+.phone-icon{
+    color:white;
+    font-weight:bold;
+    font-size:22px;
+    margin-left:10px;
+}
